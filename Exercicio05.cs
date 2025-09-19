@@ -1,23 +1,22 @@
 ﻿using System;
 using MinhaBliblioteca;
 
-class Exercicio03
+class Exercicio05
 {
-    static int cont(int[,] matriz)
+    static int diagonal(int[,] matriz)
     {
         int linhas = matriz.GetLength(0);
         int colunas = matriz.GetLength(1);
-        Console.WriteLine("Digite um valor para achar se há valores iguais na matriz:");
-        int x = int.Parse(Console.ReadLine());
-        int cont = 0;
+        int diagonal = 0;
         for (int i = 0; i < linhas; i++)
             for (int j = 0; j < colunas; j++)
-                if (matriz[i, j] == x)
+                if (j >= colunas - linhas && i + j == colunas - 1)
                 {
-                    cont++;
+                    diagonal = matriz[i, j];
+                    Console.WriteLine(diagonal);
                 }
-        
-        return cont;
+
+        return diagonal;
     }
 
     static void Main()
@@ -31,9 +30,7 @@ class Exercicio03
         //Bliblioteca.lerMatriz(matriz);
         Bliblioteca.gerarMatriz(matriz);
         Bliblioteca.mostrarMatriz(matriz);
-        int qtd = cont(matriz);
-
-        Console.WriteLine("A quantidade de elementos iguais na matriz é: " + qtd);
+        diagonal(matriz);
 
     }
 }

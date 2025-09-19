@@ -12,3 +12,4 @@ C:\Users\agabo\OneDrive\Área de Trabalho\2 Periodo\Linguagem e Técnicas de Pro
 C:\Users\agabo\OneDrive\Área de Trabalho\2 Periodo\Linguagem e Técnicas de Programação I\Exercicios\MatrizAula\Matrizes\obj\Debug\net9.0\Matrizes.pdb
 C:\Users\agabo\OneDrive\Área de Trabalho\2 Periodo\Linguagem e Técnicas de Programação I\Exercicios\MatrizAula\Matrizes\obj\Debug\net9.0\Matrizes.genruntimeconfig.cache
 C:\Users\agabo\OneDrive\Área de Trabalho\2 Periodo\Linguagem e Técnicas de Programação I\Exercicios\MatrizAula\Matrizes\obj\Debug\net9.0\ref\Matrizes.dll
+C:\Users\agabo\OneDrive\Área de Trabalho\2 Periodo\Linguagem e Técnicas de Programação I\Exercicios\MatrizAula\Matrizes\obj\Debug\net9.0\Matrizes.sourcelink.json
